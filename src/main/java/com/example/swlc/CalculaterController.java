@@ -6,6 +6,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class CalculaterController {
+    /*
+            * add two
+     */
+
+
+
                                                                     //localhost:8080 zum Aufrufen der Webseite
 
     @RequestMapping("/calc/sum")                                  // mit @RequestMapping ändert/erstellt man den Pfad der Webseite -->http://localhost:8080/calc/sum
