@@ -19,6 +19,13 @@ public class CalculaterController {
         return a+b;
     }
 
+    @RequestMapping("/calc/sum")                                  // mit @RequestMapping ändert/erstellt man den Pfad der Webseite -->http://localhost:8080/calc/sum
+    public int minus (@RequestParam int a, @RequestParam int b){      // http://localhost:8080/calc/sum?a=3&b=4
+        return a-b;
+    }
+
+
+
 
 
 
